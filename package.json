@@ -1,0 +1,43 @@
+{
+  "name": "electron-vite-react-sass-template",
+  "productName": "my-new-app",
+  "version": "1.0.0",
+  "description": "Electron template with vite, react and sass",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "dev": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish"
+  },
+  "keywords": [
+    "electron",
+    "node",
+    "vite",
+    "react",
+    "sass"
+  ],
+  "author": {
+    "name": "Staslios"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "^14.17.5"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
+    "@electron-forge/plugin-vite": "^6.1.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "electron": "24.3.1",
+    "sass": "^1.62.1"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

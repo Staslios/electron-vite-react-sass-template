@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <title>Electron</title>
+  </head>
+  <body>
+    <h1>Hi there 💖</h1>
+    <script type="module" src="/src/render/renderer.js"></script>
+
+    <!-- react entry point -->
+    <div id="root"></div>
+
+    <!-- preload injection -->
+    <div>Node v: <span id="node-version"></span></div>
+    <div>Chrome v: <span id="chrome-version"></span></div>
+    <div>Electron v: <span id="electron-version"></span></div>
+  </body>
+</html>
